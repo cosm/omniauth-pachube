@@ -4,7 +4,7 @@ require "omniauth-pachube/version"
 
 Gem::Specification.new do |s|
   s.name        = "omniauth-pachube"
-  s.version     = Omniauth::Pachube::VERSION
+  s.version     = OmniAuth::Pachube::VERSION
   s.authors     = ["Levent Ali"]
   s.email       = ["lebreeze@gmail.com"]
   s.homepage    = "https://github.com/levent/omniauth-pachube"
