@@ -8,6 +8,7 @@ module OmniAuth
         :http_method => :get,
         :authorize_url => "/oauth/authenticate"
       }
+      option :skip_info, true
     end
   end
 end

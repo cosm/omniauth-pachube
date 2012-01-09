@@ -32,4 +32,10 @@ describe OmniAuth::Strategies::Pachube do
       subject.client.options[:http_method].should eq(:get)
     end
   end
+
+  describe '#skip_info' do
+    it 'should be true' do
+      subject.should be_skip_info
+    end
+  end
 end
