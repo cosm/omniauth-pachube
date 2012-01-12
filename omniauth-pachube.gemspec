@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = OmniAuth::Pachube::VERSION
   s.authors     = ["Levent Ali"]
   s.email       = ["lebreeze@gmail.com"]
-  s.homepage    = "https://github.com/levent/omniauth-pachube"
+  s.homepage    = "https://github.com/pachube/omniauth-pachube"
   s.summary     = %q{OmniAuth2 strategy for Pachube}
   s.description = %q{OmniAuth2 strategy for Pachube}
 
